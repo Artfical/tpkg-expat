@@ -1,0 +1,25 @@
+{
+ "name": "expat",
+ "version": "2.6.4",
+ "license": "MIT",
+ "homepage": "https://libexpat.github.io",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "expat-2.6.4.tar.xz"
+ ],
+ "desc": "Expat 2.6.4 XML parser library and xmlwf",
+ "file": "expat-2.6.4.tpkg",
+ "size": 275302,
+ "sha256": "d1c86d99d421a0f9d21a61f6bc55b2424451b9a4de400129f368e6aa7f92cd97",
+ "unpacked": 836573,
+ "min_build": 615,
+ "depends": [
+  "gcc"
+ ],
+ "commands": {
+  "xmlwf": "bin/xmlwf"
+ }
+}

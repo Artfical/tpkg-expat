@@ -1,0 +1,5 @@
+expat 2.6.4 for tOS
+===================
+
+Built from the release tarball beside this package (expat-2.6.4.tar.xz), unmodified, with prefix /system/pkg/expat: headers in include/, libraries in lib/. gcc finds them by itself (its specs list this folder). License: MIT (LICENSE).
+glibc: its programs and shared libraries are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.
